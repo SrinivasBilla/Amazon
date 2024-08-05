@@ -1,0 +1,86 @@
+.header-slider ul {
+  display: flex;
+  overflow-y: hidden;
+  margin-block: 0px;
+  padding-inline: 0px;
+  justify-content: center;
+}
+.header-img {
+  max-width: 100%;
+  mask-image: linear-gradient(to bottom, #000000 50%, transparent 100%);
+}
+.header-slider a{
+  position: absolute;
+  top: 20%;
+  z-index: 1;
+  padding: 5vh 1vw;
+  background: white;
+  color: #0000007b;
+  text-decoration: none;
+  font-weight: 900;
+  font-size: 22px;
+  cursor: pointer;
+}
+.control-next {
+  right: 0;
+}
+
+/*-----------box-col-content------*/
+.box-row {
+  display: flex;
+  gap: 20px;
+  margin-top: -20%;
+  row-gap: 25px;
+  margin-left: 25px;
+  justify-content: space-between;
+}
+.box-col {
+  flex: 1;
+  background: rgb(255, 255, 255);
+  padding: 20px 20px 15px 20px;
+  z-index: 1;
+}
+.a-cardui-header h2 {
+  font-size: 21px;
+}
+.box-products {
+  display: flex;
+  gap: 20px;
+}
+.box-products img {
+  position: relative;
+  max-width: 100%;
+}
+.box-products p {
+  margin-top: 0px;
+  font-size: 12px;
+}
+.more-tag {
+  font-size: 13px;
+}
+.box-signin {
+  z-index: 1;
+  flex: 1;
+  margin-right: 25px;
+}
+.sign-in-box {
+  background: white;
+  padding: 20px;
+  justify-content: center;
+}
+.product-slider {
+  background: white;
+  margin: 30px;
+  padding: 10px 20px 20px 20px;
+}
+.product-slider .products {
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+.product-slider .products img {
+  width: 200px;
+  height: 200;
+}
